@@ -18,10 +18,10 @@ function blocksTravelled(origin, destination) {
 function calculatesFarePrice(origin, destination) {
   const distanceInFeet = distanceTravelledInFeet(origin destination);
   switch(true) {
-    case: distanceInFeet <== 400
-    return 0;
-    case: distanceInFeet > 400 && distanceInFeet <== 2000
-    return distanceInFeet * 0.02;
-    case: distanceInFeet > 2500 
+    case distanceInFeet <== 400:
+      return 0;
+    case distanceInFeet > 400 && distanceInFeet <== 2000:
+      return distanceInFeet * 0.02;
+    case distanceInFeet > 2500: 
   }
 }
