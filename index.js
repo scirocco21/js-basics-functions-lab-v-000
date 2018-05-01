@@ -14,3 +14,10 @@ function distanceTravelledInFeet(origin, destination) {
 function blocksTravelled(origin, destination) {
   return destination > origin ? destination - origin : origin - destination;
 }
+
+function calculatesFarePrice(origin, destination) {
+  switch(true) {
+    case: distanceTravelledInFeet(origin destination) <== 400 
+    return 0
+  }
+}
